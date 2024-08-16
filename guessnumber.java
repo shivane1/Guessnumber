@@ -21,9 +21,9 @@ public class guessnumber {
     }
 }
 
-        System.out.println("guess number between 1 and 100");
+        System.out.println("guess number between 1 and 100, YOU HAV 10 TRIES");
         Scanner sc = new Scanner(System.in);
-        int real = (int)(Math.random()*100);
+        int real = (int)(Math.random()*100);.
         int i=0;
         while(true)
         {
@@ -37,11 +37,15 @@ public class guessnumber {
         }
         if(guess<real)
         {
-            System.out.println("GUESS BIGGER .....");
+            System.out.println("GUESS BIGGER,TRY AGAIN .....");
         }
         if(guess>real)
         {
-            System.out.println("GUESS SMALLER .....");
+            System.out.println("GUESS SMALLER,TRY AGAIN .....");
+        }
+             if(i>10)
+        {
+            System.out.println("TRY AGAIN....");
         }
        
     }
