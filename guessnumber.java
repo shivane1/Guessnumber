@@ -53,3 +53,12 @@ public class guessnumber {
     System.out.println("BYE..........");
 }
 }
+
+
+// git clone filename
+// cd filename
+// ls -a //hidden files
+// git status  (new file-> untracked,change->modified)  to remove this add and commit
+// to add (git add . or filename)
+// to commit git commit -m "message"
+// to push into github use git push origin main
